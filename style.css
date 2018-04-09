@@ -1,6 +1,36 @@
 html, body {
  font-family: 'Lato', sans-serif;
 }
+
+.tagline {
+  font-size: 5em;
+  font-weight: heavy;
+}
+.services {
+  font-size: 5em;
+  font-weight: heavy;
+}
+.heroimg {
+  position: relative;
+  width: 100%;
+}
+
+.heroimg--tagline{
+  color: white;
+  position: absolute;
+  top: 2%;
+  left: 20%;
+  width: 100%;
+}
+
+.heroimg--services {
+  color: white;
+  position: absolute;
+  top: 30%;
+  left: 35%;
+  width: 100%;
+}
+
 .intro {
   padding-left: 30px;
   padding-top: 30px;
@@ -9,6 +39,11 @@ html, body {
   margin-top: 80px;
   margin-bottom: 60px;
 }
+.services-container {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
 .services__items {
   font-size: 50px;
 }
