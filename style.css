@@ -1,10 +1,42 @@
 html, body {
  font-family: 'Lato', sans-serif;
 }
+@media only screen and (max-width: 1200px) {
+  .contactus {
+    display:none;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .contactusagain {
+    display:none;
+  }
+}
+
+.services-title {
+  margin-bottom: 40px;
+}
+
+.bluecard {
+  background-color: #D7E9FF;
+}
+
+.contrastcard {
+  background-color: #F8F2F2;
+}
+
+.landingservices {
+  margin-top:100px;
+  margin-bottom: 40px;
+}
+
+.service-spacing {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
 
 .tagline {
   font-size: 5em;
-  font-weight: heavy;
+  font-weight:500;
 }
 .services {
   font-size: 5em;
@@ -16,11 +48,12 @@ html, body {
 }
 
 .heroimg--tagline{
-  color: white;
+  text-align: left;
   position: absolute;
-  top: 2%;
-  left: 20%;
-  width: 100%;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  color: white;
 }
 
 .heroimg--services {
@@ -36,8 +69,12 @@ html, body {
   padding-top: 30px;
 }
 .services {
-  margin-top: 80px;
-  margin-bottom: 60px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
 }
 .services-container {
   margin-top: 80px;
@@ -52,11 +89,6 @@ html, body {
   margin-top:100px;
   margin-bottom: 100px;
 }
-
-.SlantsContainer {
-	position: relative;
-}
-
 .parent{
   position:relative;
 }
@@ -70,11 +102,11 @@ html, body {
   position: absolute;
   top: 10%;
   left: 10px;
-  width: 100%;
+  /* width: 100%; */
 }
 .businesshours {
   position: absolute;
   top: 50%;
   left: 65%;
-  width: 100%;
+  /* width: 100%; */
 }
